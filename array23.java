@@ -1,4 +1,4 @@
-// binary search by predefibed 
+// binary search by predefined 
 import java.util.*;
 class array23{
 public static void main(String [] args){
@@ -21,4 +21,5 @@ int key= sc.nextInt();
 int index = Arrays.binarySearch(a,0,a.length,key);
 System.out.println("element present at index : " + index);
 }
+
 }
