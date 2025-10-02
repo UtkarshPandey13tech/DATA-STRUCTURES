@@ -1,4 +1,4 @@
-// half searching binary search by recursion
+// half searching  left side by binary search by recursion
 import java.util.*;
 class array20{
 public static void main(String [] args){
@@ -43,4 +43,5 @@ return -1;
 }
 }
 }
+
 
