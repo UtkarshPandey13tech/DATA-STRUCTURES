@@ -1,0 +1,39 @@
+// prog for read and calculate sum of all elements  present in an array
+import java.util.*;
+class array36{
+public static void main(String [] args){
+Scanner sc = new Scanner(System.in);
+System.out.println("enter the row size of matrix");
+int rs = sc.nextInt();
+System.out.println("enter the col size of matrix");
+int cs = sc.nextInt();
+int i , j , sum , a[][] = new int [rs][cs];
+System.out.println("enter the matrix element ");
+for(i=0;i<rs; i++){
+for(j=0;j<cs;j++){
+a[i][j] = sc.nextInt();
+}
+}
+sum =0;
+for(i=0;i<rs;i++){
+for(j=0;j<cs;j++){
+sum += a[i][j];
+}
+}
+System.out.println("sum of all elemnt of matrix is:"+sum);
+}
+}
+/*
+C:\Users\ankur\OneDrive\Desktop\Javanote>javac array36.java
+
+C:\Users\ankur\OneDrive\Desktop\Javanote>java array36
+enter the row size of matrix
+3
+enter the col size of matrix
+3
+enter the matrix element
+1 2 3
+4 5 6
+7 8 9
+sum of all elemnt of matrix is:45
+*/
